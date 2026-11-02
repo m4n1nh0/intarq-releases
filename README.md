@@ -1,26 +1,22 @@
-# INTARQ — AI Assistant
+# INTARQ Releases
 
-Aplicativo de assistente pessoal desktop com backend em FastAPI, interface em Flutter, memória vetorial, automações locais, integração com calendários, voz, notificações, modo educação com gravação de aulas e múltiplos provedores de LLM.
+Este repositório é dedicado às versões e artefatos de release do projeto INTARQ.
 
-## Visão geral
+O código principal da aplicação fica em outro repositório público/privado, conforme a estratégia de manutenção do projeto. Aqui são publicados os builds, instaladores e materiais relacionados à distribuição e disponibilização das versões estáveis do sistema.
 
-O INTARQ foi pensado para rodar localmente, com dados e credenciais sensíveis fora do repositório. A aplicação combina processamento de linguagem, automações no ambiente do usuário e integração com serviços externos para atuar como assistente pessoal inteligente.
+## Objetivo
 
-## Arquitetura
-
-- Backend: FastAPI
-- Frontend: Flutter
-- Memória: vetorial
-- Automação: local, integrada ao fluxo de trabalho do usuário
-- Integrações: calendários, notificações, voz e provedores de LLM
-- Modo educação: gravação de aulas para contexto e aprendizado
+- Centralizar as releases do INTARQ
+- Disponibilizar instaladores e pacotes de distribuição
+- Registrar versões publicadas do produto
+- Manter o repositório principal focado no desenvolvimento e na manutenção do código-fonte
 
 ## Segurança e configuração
 
-O projeto foi estruturado para manter informações sensíveis fora do código-fonte e fora do repositório. O arquivo `backend/.env.example` documenta apenas as variáveis de infraestrutura e provedores que continuam vindo do ambiente.
+O projeto principal foi pensado para rodar localmente, com dados e credenciais sensíveis fora do repositório. O arquivo `backend/.env.example` documenta apenas as variáveis de infraestrutura e provedores que continuam vindo do ambiente.
 
 As configurações de notificação e as autorizações das contas de calendário são persistidas no banco pela própria aplicação. Segredos de aplicações OAuth, como o App Registration Microsoft multitenant, permanecem no ambiente do backend.
 
 ## Observação
 
-Este repositório concentra os artefatos de release e distribuição do projeto, enquanto parte da configuração operacional e dos segredos permanece no ambiente local do usuário.
+Este repositório não substitui o projeto principal de desenvolvimento; ele serve como canal de distribuição das versões do INTARQ.
